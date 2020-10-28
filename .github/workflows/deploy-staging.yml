@@ -2,7 +2,7 @@ name: Staging the app
 
 on: 
   pull request:
-    types:[label]
+    types:[labeled]
     
 jobs: 
   build:
