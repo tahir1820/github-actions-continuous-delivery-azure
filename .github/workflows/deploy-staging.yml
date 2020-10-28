@@ -1,0 +1,9 @@
+name: Staging the app
+
+on: 
+  pull request:
+    types:[label]
+    
+jobs: 
+  build:
+    runs-on: ubuntu-latest
